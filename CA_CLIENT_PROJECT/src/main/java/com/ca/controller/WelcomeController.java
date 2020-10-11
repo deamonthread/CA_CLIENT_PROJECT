@@ -29,6 +29,7 @@ public class WelcomeController {
 	@GetMapping("/logout-success")
 	public void logoutSuccess() {
 		System.out.println("logout success");
+		System.out.println("hey");
 	}
 
 	
